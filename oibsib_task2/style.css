@@ -1,0 +1,181 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background: rgb(22, 21, 21);
+  font-size: 1rem;
+  font-family: "Roboto", sans-serif;
+  color: white;
+}
+
+#main {
+  text-align: center;
+}
+
+
+/* Content */
+
+#content {
+  margin: 0% 2%;
+}
+
+#title {
+  font-size: 8rem;
+  line-height: 1;
+  margin: 3% 0% 0%;
+  font-family: "Poppins", sans-serif;
+}
+
+.byline {
+  font-size: 2.5rem;
+  margin: 5% 0%;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 100;
+}
+
+#image {
+  max-width: 80%;
+  height: auto;
+  display: block;
+  margin: auto;
+}
+
+#img-caption {
+  margin: 15px 0px;
+}
+
+#tribute-content {
+  text-align: left;
+  margin-top: 3%;
+}
+
+.tribute-heading {
+  font-size: 2rem;
+  text-align: center;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 100;
+  margin-top: 5%;
+}
+
+.timeline {
+  margin: 3% 0% 5%;
+  margin-left: 11%;
+  line-height: 2;
+}
+
+.timeline-li {
+  font-size: 1rem;
+  margin-bottom: 2%;
+  padding-left: 3%;
+  list-style-type: none;
+}
+
+.sub-ul {
+  font-weight: 100;
+}
+
+.link-text {
+  text-align: center;
+  margin: 3% 0%;
+}
+
+@media (max-width: 1400px) {
+  body {
+    text-align: center;
+  }
+
+  .fa-chevron-down {
+    visibility: hidden;
+  }
+
+  #title {
+    font-size: 7.5rem;
+    margin-top: 5%;
+  }
+
+  .byline {
+    font-size: 2.5rem;
+  }
+
+  #img-caption {
+    font-size: 1.25rem;
+  }
+
+  .tribute-heading {
+    font-size: 2rem;
+  }
+
+  .timeline {
+    font-size: 1.8rem;
+    margin: 5% 12%;
+    padding: 0;
+  }
+
+  .timeline-li {
+    margin-bottom: 5%;
+    font-size: 1.5rem;
+  }
+
+  .link-text {
+    font-size: 1.25rem;
+  }
+}
+
+@media (max-width: 800px) {
+  body {
+    text-align: center;
+  }
+
+  .fa-chevron-down {
+    visibility: hidden;
+  }
+
+  #title {
+    font-size: 3rem;
+    margin-top: 8%;
+    padding: 1.8%;
+  }
+
+  .byline {
+    font-size: 0.8rem;
+  }
+
+  #img-caption {
+    font-size: 0.45rem;
+  }
+
+  .tribute-heading {
+    font-size: 1.25rem;
+  }
+
+  .timeline {
+    font-size: 0.75rem;
+    margin: 5% 12%;
+    padding: 0;
+  }
+
+  .timeline-li {
+    margin-bottom: 5%;
+    font-size: 1rem;
+  }
+
+  .link-text {
+    font-size: 1rem;
+  }
+}
+
+.footer {
+  text-align: center;
+  background-color: #f8f9fa;
+  color: #212529;
+  padding: 20px 0;
+}
+
+.footer p {
+  margin: 0;
+}
+
