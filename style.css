@@ -1,0 +1,45 @@
+
+body {
+  background-image: url("Image.jpg");
+}
+
+.calculator {
+    color:rgb(61, 69, 61);
+    width: 400px;
+    margin: 200px auto;
+  }
+
+  .calculator-heading {
+    text-align: center;
+  }
+  
+  #display {
+    width: 94%;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5px;
+    margin-top: 10px;
+  }
+  
+  button {
+    color:crimson;
+    width: 100%;
+    padding: 10px;
+  }
+
+  .button-enter {
+    grid-column: span 2;
+  }
+
+  .footer {
+    position: fixed;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
